@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Konstantin Nestmann</title>
+    <link>kn-code.github.io/talk/</link>
+      <atom:link href="kn-code.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2023 11:30:00 +0200</lastBuildDate>
+    <image>
+      <url>/kn-code.github.io/media/icon_huc73641a0e86e5332cecb810b606a4bf3_11086_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>kn-code.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Temperature Flow Renormalization Group for Open Quantum Systems</title>
+      <link>kn-code.github.io/talk/2023c/</link>
+      <pubDate>Thu, 21 Sep 2023 11:30:00 +0200</pubDate>
+      <guid>kn-code.github.io/talk/2023c/</guid>
+      <description>&lt;embed src=&#34;talk.pdf&#34; width=&#34;100%&#34; height=&#34;670px&#34; type=&#34;application/pdf&#34; &gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Time (non)-local Descriptions of Open Quantum System Dynamics</title>
+      <link>kn-code.github.io/talk/2023b/</link>
+      <pubDate>Thu, 27 Jul 2023 15:00:00 +0200</pubDate>
+      <guid>kn-code.github.io/talk/2023b/</guid>
+      <description>&lt;embed src=&#34;talk.pdf&#34; width=&#34;100%&#34; height=&#34;670px&#34; type=&#34;application/pdf&#34; &gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Quantum Systems: Time (non)-locality, Fixed Points, and Renormalization Groups</title>
+      <link>kn-code.github.io/talk/2023a/</link>
+      <pubDate>Mon, 26 Jun 2023 10:00:00 +0200</pubDate>
+      <guid>kn-code.github.io/talk/2023a/</guid>
+      <description>&lt;embed src=&#34;talk.pdf&#34; width=&#34;100%&#34; height=&#34;670px&#34; type=&#34;application/pdf&#34; &gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

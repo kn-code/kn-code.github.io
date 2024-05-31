@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: kn-code.github.io/sitemap.xml
