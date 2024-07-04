@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Konstantin Nestmann</title>
+    <link>kn-code.github.io/publication-type/2/</link>
+      <atom:link href="kn-code.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/kn-code.github.io/media/icon_huc73641a0e86e5332cecb810b606a4bf3_11086_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>kn-code.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Renormalization group for open quantum systems using environment temperature as flow parameter</title>
+      <link>kn-code.github.io/publication/renormalization-group-for-open-quantum-systems-using-environment-temperature-as-flow-parameter/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/renormalization-group-for-open-quantum-systems-using-environment-temperature-as-flow-parameter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General connection between time-local and time-nonlocal perturbation expansions</title>
+      <link>kn-code.github.io/publication/general-connection-between-time-local-and-time-nonlocal-perturbation-expansions/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/general-connection-between-time-local-and-time-nonlocal-perturbation-expansions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fermionic duality: General symmetry of open systems with strong dissipation and memory</title>
+      <link>kn-code.github.io/publication/fermionic-duality-general-symmetry-of-open-systems-with-strong-dissipation-and-memory/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/fermionic-duality-general-symmetry-of-open-systems-with-strong-dissipation-and-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How quantum evolution with memory is generated in a time-local way</title>
+      <link>kn-code.github.io/publication/how-quantum-evolution-with-memory-is-generated-in-a-time-local-way/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/how-quantum-evolution-with-memory-is-generated-in-a-time-local-way/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Five approaches to exact open-system dynamics: Complete positivity, divisibility, and time-dependent observables</title>
+      <link>kn-code.github.io/publication/five-approaches-to-exact-open-system-dynamics-complete-positivity-divisibility-and-time-dependent-observables/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/five-approaches-to-exact-open-system-dynamics-complete-positivity-divisibility-and-time-dependent-observables/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
