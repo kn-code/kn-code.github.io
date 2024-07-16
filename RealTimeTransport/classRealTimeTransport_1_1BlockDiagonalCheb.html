@@ -141,7 +141,7 @@ $(function(){initNavTree('classRealTimeTransport_1_1BlockDiagonalCheb.html','');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a95f286c528a542a47bfcbdba1d599ce1" id="r_a95f286c528a542a47bfcbdba1d599ce1"><td class="memItemLeft" align="right" valign="top"><a id="a95f286c528a542a47bfcbdba1d599ce1" name="a95f286c528a542a47bfcbdba1d599ce1"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Scalar</b> = <a class="el" href="Definitions_8h.html#a6adcadbd3ee170949f32083deac2c474">SciCore::Complex</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Scalar</b> = SciCore::Complex</td></tr>
 <tr class="memdesc:a95f286c528a542a47bfcbdba1d599ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type representing the matrix elements. <br /></td></tr>
 <tr class="separator:a95f286c528a542a47bfcbdba1d599ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26f800dbf470c759e16697f9a1a58644" id="r_a26f800dbf470c759e16697f9a1a58644"><td class="memItemLeft" align="right" valign="top"><a id="a26f800dbf470c759e16697f9a1a58644" name="a26f800dbf470c759e16697f9a1a58644"></a>
@@ -171,10 +171,10 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classRealTimeTransport_1_1BlockDiagonalCheb.html">BlockDiagonalCheb</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classRealTimeTransport_1_1BlockDiagonalCheb.html">BlockDiagonalCheb</a> &amp;other)</td></tr>
 <tr class="memdesc:ab7ce77701223fc31d6f29d5f319e4022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. <br /></td></tr>
 <tr class="separator:ab7ce77701223fc31d6f29d5f319e4022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a24c4d194b7c1cd01813a4ee5a6691" id="r_a42a24c4d194b7c1cd01813a4ee5a6691"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42a24c4d194b7c1cd01813a4ee5a6691">BlockDiagonalCheb</a> (const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>)&gt; &amp;f, int nBlocks, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> a, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> b, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> epsAbs, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> epsRel, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> hMin, bool *ok=nullptr)</td></tr>
+<tr class="memitem:a42a24c4d194b7c1cd01813a4ee5a6691" id="r_a42a24c4d194b7c1cd01813a4ee5a6691"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42a24c4d194b7c1cd01813a4ee5a6691">BlockDiagonalCheb</a> (const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, SciCore::Real)&gt; &amp;f, int nBlocks, SciCore::Real a, SciCore::Real b, SciCore::Real epsAbs, SciCore::Real epsRel, SciCore::Real hMin, bool *ok=nullptr)</td></tr>
 <tr class="memdesc:a42a24c4d194b7c1cd01813a4ee5a6691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a piecewise Chebyshev interpolation of the function \(f(t)\) with \(t\in[a,b]\).  <br /></td></tr>
 <tr class="separator:a42a24c4d194b7c1cd01813a4ee5a6691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a025ae606337f115c88bf9fbf75176d84" id="r_a025ae606337f115c88bf9fbf75176d84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025ae606337f115c88bf9fbf75176d84">BlockDiagonalCheb</a> (const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>)&gt; &amp;f, int nBlocks, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> a, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> b, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> epsAbs, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> epsRel, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> hMin, tf::Executor &amp;executor, bool *ok=nullptr)</td></tr>
+<tr class="memitem:a025ae606337f115c88bf9fbf75176d84" id="r_a025ae606337f115c88bf9fbf75176d84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025ae606337f115c88bf9fbf75176d84">BlockDiagonalCheb</a> (const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, SciCore::Real)&gt; &amp;f, int nBlocks, SciCore::Real a, SciCore::Real b, SciCore::Real epsAbs, SciCore::Real epsRel, SciCore::Real hMin, tf::Executor &amp;executor, bool *ok=nullptr)</td></tr>
 <tr class="memdesc:a025ae606337f115c88bf9fbf75176d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a piecewise Chebyshev interpolation of the function \(f(t)\) with \(t\in[a,b]\) in parallel.  <br /></td></tr>
 <tr class="separator:a025ae606337f115c88bf9fbf75176d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e390a30af33558a7fa1cc3dd3df663" id="r_a04e390a30af33558a7fa1cc3dd3df663"><td class="memItemLeft" align="right" valign="top"><a id="a04e390a30af33558a7fa1cc3dd3df663" name="a04e390a30af33558a7fa1cc3dd3df663"></a>
@@ -190,19 +190,19 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>numBlocks</b> () const
 <tr class="memdesc:af0469e862a1683fd73411e94fad00376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of matrix blocks. <br /></td></tr>
 <tr class="separator:af0469e862a1683fd73411e94fad00376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a582ad78fa5c6916e74a44782ea39894c" id="r_a582ad78fa5c6916e74a44782ea39894c"><td class="memItemLeft" align="right" valign="top"><a id="a582ad78fa5c6916e74a44782ea39894c" name="a582ad78fa5c6916e74a44782ea39894c"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>lowerLimit</b> () const</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>lowerLimit</b> () const</td></tr>
 <tr class="memdesc:a582ad78fa5c6916e74a44782ea39894c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower limit of the interplation interval. <br /></td></tr>
 <tr class="separator:a582ad78fa5c6916e74a44782ea39894c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d0a38a23f28c88ac17b901518c3ba7" id="r_ab9d0a38a23f28c88ac17b901518c3ba7"><td class="memItemLeft" align="right" valign="top"><a id="ab9d0a38a23f28c88ac17b901518c3ba7" name="ab9d0a38a23f28c88ac17b901518c3ba7"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>upperLimit</b> () const</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>upperLimit</b> () const</td></tr>
 <tr class="memdesc:ab9d0a38a23f28c88ac17b901518c3ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper limit of the interplation interval. <br /></td></tr>
 <tr class="separator:ab9d0a38a23f28c88ac17b901518c3ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af814a3029b1f589a64bee1e443743a4f" id="r_af814a3029b1f589a64bee1e443743a4f"><td class="memItemLeft" align="right" valign="top"><a id="af814a3029b1f589a64bee1e443743a4f" name="af814a3029b1f589a64bee1e443743a4f"></a>
-<a class="el" href="classRealTimeTransport_1_1BlockDiagonalMatrix.html">BlockDiagonalMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> t) const</td></tr>
+<a class="el" href="classRealTimeTransport_1_1BlockDiagonalMatrix.html">BlockDiagonalMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (SciCore::Real t) const</td></tr>
 <tr class="memdesc:af814a3029b1f589a64bee1e443743a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full interpolated matrix at time \( t \). <br /></td></tr>
 <tr class="separator:af814a3029b1f589a64bee1e443743a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa689b834ddb73f7b3d9ec77871e91e" id="r_a5aa689b834ddb73f7b3d9ec77871e91e"><td class="memItemLeft" align="right" valign="top"><a id="a5aa689b834ddb73f7b3d9ec77871e91e" name="a5aa689b834ddb73f7b3d9ec77871e91e"></a>
-<a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (int i, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> t) const</td></tr>
+<a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (int i, SciCore::Real t) const</td></tr>
 <tr class="memdesc:a5aa689b834ddb73f7b3d9ec77871e91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns block <em>i</em> of the interpolated matrix at time \( t \). <br /></td></tr>
 <tr class="separator:a5aa689b834ddb73f7b3d9ec77871e91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbb1918e922d4537cd64840e30db4b98" id="r_adbb1918e922d4537cd64840e30db4b98"><td class="memItemLeft" align="right" valign="top"><a id="adbb1918e922d4537cd64840e30db4b98" name="adbb1918e922d4537cd64840e30db4b98"></a>
@@ -228,7 +228,7 @@ const SciCore::ChebAdaptive&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1
         <tr>
           <td class="memname">RealTimeTransport::BlockDiagonalCheb::BlockDiagonalCheb </td>
           <td>(</td>
-          <td class="paramtype">const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, SciCore::Real)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -238,27 +238,27 @@ const SciCore::ChebAdaptive&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>epsAbs</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>epsAbs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>epsRel</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>epsRel</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>hMin</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>hMin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -292,7 +292,7 @@ const SciCore::ChebAdaptive&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1
         <tr>
           <td class="memname">RealTimeTransport::BlockDiagonalCheb::BlockDiagonalCheb </td>
           <td>(</td>
-          <td class="paramtype">const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1a58644">MatrixType</a>(int, SciCore::Real)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -302,27 +302,27 @@ const SciCore::ChebAdaptive&lt; <a class="el" href="#a26f800dbf470c759e16697f9a1
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>epsAbs</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>epsAbs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>epsRel</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>epsRel</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>hMin</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>hMin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

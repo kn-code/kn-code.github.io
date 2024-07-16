@@ -43,7 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AndersonDot_8h.html",
-"classRealTimeTransport_1_1RenormalizedPT_1_1ConductanceKernel.html#aac1f79ad95461cc60d8331f3fbc68792"
+"classRealTimeTransport_1_1RenormalizedPT_1_1CurrentKernel.html#ae4e43155ab37b6168c976bcfe02c844f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

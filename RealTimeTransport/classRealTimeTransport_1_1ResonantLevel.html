@@ -169,11 +169,11 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classRealTimeTransport_1_1ResonantLevel.html">ResonantLevel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classRealTimeTransport_1_1ResonantLevel.html">ResonantLevel</a> &amp;other)=default</td></tr>
 <tr class="memdesc:a63a576e69fced34fb881ada1956f04b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default copy assignment operator. <br /></td></tr>
 <tr class="separator:a63a576e69fced34fb881ada1956f04b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae607f01cc4ccc6f46854d0c7cc2ac412" id="r_ae607f01cc4ccc6f46854d0c7cc2ac412"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae607f01cc4ccc6f46854d0c7cc2ac412">ResonantLevel</a> (<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> <a class="el" href="#a29085d5b5834aade4e922830f83df029">epsilon</a>, const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;T, const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;mu, const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;Gamma)</td></tr>
+<tr class="memitem:ae607f01cc4ccc6f46854d0c7cc2ac412" id="r_ae607f01cc4ccc6f46854d0c7cc2ac412"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae607f01cc4ccc6f46854d0c7cc2ac412">ResonantLevel</a> (SciCore::Real <a class="el" href="#a29085d5b5834aade4e922830f83df029">epsilon</a>, const SciCore::RealVector &amp;T, const SciCore::RealVector &amp;mu, const SciCore::RealVector &amp;Gamma)</td></tr>
 <tr class="memdesc:ae607f01cc4ccc6f46854d0c7cc2ac412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classRealTimeTransport_1_1ResonantLevel.html" title="Implements a single level without spin.">ResonantLevel</a> object.  <br /></td></tr>
 <tr class="separator:ae607f01cc4ccc6f46854d0c7cc2ac412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29085d5b5834aade4e922830f83df029" id="r_a29085d5b5834aade4e922830f83df029"><td class="memItemLeft" align="right" valign="top"><a id="a29085d5b5834aade4e922830f83df029" name="a29085d5b5834aade4e922830f83df029"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>epsilon</b> () const noexcept</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>epsilon</b> () const noexcept</td></tr>
 <tr class="memdesc:a29085d5b5834aade4e922830f83df029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the energy of the level. <br /></td></tr>
 <tr class="separator:a29085d5b5834aade4e922830f83df029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1033cdc79aaf03b73b09cdb7c415d09c" id="r_a1033cdc79aaf03b73b09cdb7c415d09c"><td class="memItemLeft" align="right" valign="top"><a id="a1033cdc79aaf03b73b09cdb7c415d09c" name="a1033cdc79aaf03b73b09cdb7c415d09c"></a>
@@ -201,15 +201,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>numReservoirs</b> () c
 <tr class="memdesc:af39e7ecf30dedfd02e23eea315bc9967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the annihilation operator. \(l\) is always 0. <br /></td></tr>
 <tr class="separator:af39e7ecf30dedfd02e23eea315bc9967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d79e187d7fc05cddfdb3f7b21020dd" id="r_ab4d79e187d7fc05cddfdb3f7b21020dd"><td class="memItemLeft" align="right" valign="top"><a id="ab4d79e187d7fc05cddfdb3f7b21020dd" name="ab4d79e187d7fc05cddfdb3f7b21020dd"></a>
-<a class="el" href="Definitions_8h.html#a6adcadbd3ee170949f32083deac2c474">SciCore::Complex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coupling</b> (int r, int nu, int l) const override</td></tr>
+SciCore::Complex&#160;</td><td class="memItemRight" valign="bottom"><b>coupling</b> (int r, int nu, int l) const override</td></tr>
 <tr class="memdesc:ab4d79e187d7fc05cddfdb3f7b21020dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the coupling coefficient in the tunneling Hamiltonian. Both \(\nu\) and \(l\) are always 0. <br /></td></tr>
 <tr class="separator:ab4d79e187d7fc05cddfdb3f7b21020dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4e4c16dfac34bfbc854b052cc48bd32" id="r_ae4e4c16dfac34bfbc854b052cc48bd32"><td class="memItemLeft" align="right" valign="top"><a id="ae4e4c16dfac34bfbc854b052cc48bd32" name="ae4e4c16dfac34bfbc854b052cc48bd32"></a>
-const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>temperatures</b> () const noexcept override</td></tr>
+const SciCore::RealVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>temperatures</b> () const noexcept override</td></tr>
 <tr class="memdesc:ae4e4c16dfac34bfbc854b052cc48bd32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the temperatures of the reservoirs the system is connected to. <br /></td></tr>
 <tr class="separator:ae4e4c16dfac34bfbc854b052cc48bd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24da2c0696a7f2c7f738b7c2a4af81c" id="r_aa24da2c0696a7f2c7f738b7c2a4af81c"><td class="memItemLeft" align="right" valign="top"><a id="aa24da2c0696a7f2c7f738b7c2a4af81c" name="aa24da2c0696a7f2c7f738b7c2a4af81c"></a>
-const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>chemicalPotentials</b> () const noexcept override</td></tr>
+const SciCore::RealVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>chemicalPotentials</b> () const noexcept override</td></tr>
 <tr class="memdesc:aa24da2c0696a7f2c7f738b7c2a4af81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the chemical potentials of the reservoirs the system is connected to. <br /></td></tr>
 <tr class="separator:aa24da2c0696a7f2c7f738b7c2a4af81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23e313e4fd3d26fb086f538033e5972a" id="r_a23e313e4fd3d26fb086f538033e5972a"><td class="memItemLeft" align="right" valign="top"><a id="a23e313e4fd3d26fb086f538033e5972a" name="a23e313e4fd3d26fb086f538033e5972a"></a>
@@ -250,19 +250,19 @@ virtual <a class="el" href="classRealTimeTransport_1_1Model.html#aff525a6c5d1260
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classRealTimeTransport_1_1Model"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classRealTimeTransport_1_1Model')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classRealTimeTransport_1_1Model.html">RealTimeTransport::Model</a></td></tr>
 <tr class="memitem:aff525a6c5d126020aa61bb820491a7eb inherit pub_types_classRealTimeTransport_1_1Model" id="r_aff525a6c5d126020aa61bb820491a7eb"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>OperatorType</b> = <a class="el" href="Definitions_8h.html#ab28a4c7810f5cbe9c9105e259bb20ed2">SciCore::Matrix</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>OperatorType</b> = SciCore::Matrix</td></tr>
 <tr class="memdesc:aff525a6c5d126020aa61bb820491a7eb inherit pub_types_classRealTimeTransport_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of ordinary operators. <br /></td></tr>
 <tr class="separator:aff525a6c5d126020aa61bb820491a7eb inherit pub_types_classRealTimeTransport_1_1Model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e8cf3420b7d37c160107336c72df3cf inherit pub_types_classRealTimeTransport_1_1Model" id="r_a2e8cf3420b7d37c160107336c72df3cf"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SupervectorType</b> = <a class="el" href="Definitions_8h.html#a01c1cd16180807df6a6b1b999e9d3736">SciCore::Vector</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SupervectorType</b> = SciCore::Vector</td></tr>
 <tr class="memdesc:a2e8cf3420b7d37c160107336c72df3cf inherit pub_types_classRealTimeTransport_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of vectorized operators. <br /></td></tr>
 <tr class="separator:a2e8cf3420b7d37c160107336c72df3cf inherit pub_types_classRealTimeTransport_1_1Model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee61705613deeaf8724e92cd3d9ff410 inherit pub_types_classRealTimeTransport_1_1Model" id="r_aee61705613deeaf8724e92cd3d9ff410"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperRowVectorType</b> = <a class="el" href="Definitions_8h.html#ad881e8446e8c7efbde1256024b67e37e">SciCore::RowVector</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperRowVectorType</b> = SciCore::RowVector</td></tr>
 <tr class="memdesc:aee61705613deeaf8724e92cd3d9ff410 inherit pub_types_classRealTimeTransport_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of adjoint of vectorized operators. <br /></td></tr>
 <tr class="separator:aee61705613deeaf8724e92cd3d9ff410 inherit pub_types_classRealTimeTransport_1_1Model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca9fb8d7007206efef134afc3758a4f6 inherit pub_types_classRealTimeTransport_1_1Model" id="r_aca9fb8d7007206efef134afc3758a4f6"><td class="memItemLeft" align="right" valign="top">
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperoperatorType</b> = <a class="el" href="Definitions_8h.html#ab28a4c7810f5cbe9c9105e259bb20ed2">SciCore::Matrix</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperoperatorType</b> = SciCore::Matrix</td></tr>
 <tr class="memdesc:aca9fb8d7007206efef134afc3758a4f6 inherit pub_types_classRealTimeTransport_1_1Model"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of superoperators. <br /></td></tr>
 <tr class="separator:aca9fb8d7007206efef134afc3758a4f6 inherit pub_types_classRealTimeTransport_1_1Model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -276,22 +276,22 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperoperatorType</b
         <tr>
           <td class="memname">RealTimeTransport::ResonantLevel::ResonantLevel </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>epsilon</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>epsilon</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>T</em></span>, </td>
+          <td class="paramtype">const SciCore::RealVector &amp;</td>          <td class="paramname"><span class="paramname"><em>T</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mu</em></span>, </td>
+          <td class="paramtype">const SciCore::RealVector &amp;</td>          <td class="paramname"><span class="paramname"><em>mu</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Gamma</em></span>&#160;)</td>
+          <td class="paramtype">const SciCore::RealVector &amp;</td>          <td class="paramname"><span class="paramname"><em>Gamma</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

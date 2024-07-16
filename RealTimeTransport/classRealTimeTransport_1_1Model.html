@@ -141,19 +141,19 @@ $(function(){initNavTree('classRealTimeTransport_1_1Model.html',''); initResizab
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:aff525a6c5d126020aa61bb820491a7eb" id="r_aff525a6c5d126020aa61bb820491a7eb"><td class="memItemLeft" align="right" valign="top"><a id="aff525a6c5d126020aa61bb820491a7eb" name="aff525a6c5d126020aa61bb820491a7eb"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>OperatorType</b> = <a class="el" href="Definitions_8h.html#ab28a4c7810f5cbe9c9105e259bb20ed2">SciCore::Matrix</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>OperatorType</b> = SciCore::Matrix</td></tr>
 <tr class="memdesc:aff525a6c5d126020aa61bb820491a7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of ordinary operators. <br /></td></tr>
 <tr class="separator:aff525a6c5d126020aa61bb820491a7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e8cf3420b7d37c160107336c72df3cf" id="r_a2e8cf3420b7d37c160107336c72df3cf"><td class="memItemLeft" align="right" valign="top"><a id="a2e8cf3420b7d37c160107336c72df3cf" name="a2e8cf3420b7d37c160107336c72df3cf"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SupervectorType</b> = <a class="el" href="Definitions_8h.html#a01c1cd16180807df6a6b1b999e9d3736">SciCore::Vector</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SupervectorType</b> = SciCore::Vector</td></tr>
 <tr class="memdesc:a2e8cf3420b7d37c160107336c72df3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of vectorized operators. <br /></td></tr>
 <tr class="separator:a2e8cf3420b7d37c160107336c72df3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee61705613deeaf8724e92cd3d9ff410" id="r_aee61705613deeaf8724e92cd3d9ff410"><td class="memItemLeft" align="right" valign="top"><a id="aee61705613deeaf8724e92cd3d9ff410" name="aee61705613deeaf8724e92cd3d9ff410"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperRowVectorType</b> = <a class="el" href="Definitions_8h.html#ad881e8446e8c7efbde1256024b67e37e">SciCore::RowVector</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperRowVectorType</b> = SciCore::RowVector</td></tr>
 <tr class="memdesc:aee61705613deeaf8724e92cd3d9ff410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of adjoint of vectorized operators. <br /></td></tr>
 <tr class="separator:aee61705613deeaf8724e92cd3d9ff410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca9fb8d7007206efef134afc3758a4f6" id="r_aca9fb8d7007206efef134afc3758a4f6"><td class="memItemLeft" align="right" valign="top"><a id="aca9fb8d7007206efef134afc3758a4f6" name="aca9fb8d7007206efef134afc3758a4f6"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperoperatorType</b> = <a class="el" href="Definitions_8h.html#ab28a4c7810f5cbe9c9105e259bb20ed2">SciCore::Matrix</a></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>SuperoperatorType</b> = SciCore::Matrix</td></tr>
 <tr class="memdesc:aca9fb8d7007206efef134afc3758a4f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of superoperators. <br /></td></tr>
 <tr class="separator:aca9fb8d7007206efef134afc3758a4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -196,15 +196,15 @@ virtual <a class="el" href="#aff525a6c5d126020aa61bb820491a7eb">OperatorType</a>
 <tr class="memdesc:a741b10101b3bcd9679580c4ae5520b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the annihilation operator of the single particle state indexed by l. <br /></td></tr>
 <tr class="separator:a741b10101b3bcd9679580c4ae5520b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af95d8660fd03f9051516d937d8bd62e0" id="r_af95d8660fd03f9051516d937d8bd62e0"><td class="memItemLeft" align="right" valign="top"><a id="af95d8660fd03f9051516d937d8bd62e0" name="af95d8660fd03f9051516d937d8bd62e0"></a>
-virtual <a class="el" href="Definitions_8h.html#a6adcadbd3ee170949f32083deac2c474">SciCore::Complex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coupling</b> (int r, int nu, int l) const =0</td></tr>
+virtual SciCore::Complex&#160;</td><td class="memItemRight" valign="bottom"><b>coupling</b> (int r, int nu, int l) const =0</td></tr>
 <tr class="memdesc:af95d8660fd03f9051516d937d8bd62e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the coupling coefficient in the tunneling Hamiltonian, given by \(\sqrt{\lambda}_{r \nu} t_{r \nu l}\). <br /></td></tr>
 <tr class="separator:af95d8660fd03f9051516d937d8bd62e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a625e7cca6ae14895f4dc0a7cb0803dc1" id="r_a625e7cca6ae14895f4dc0a7cb0803dc1"><td class="memItemLeft" align="right" valign="top"><a id="a625e7cca6ae14895f4dc0a7cb0803dc1" name="a625e7cca6ae14895f4dc0a7cb0803dc1"></a>
-virtual const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>temperatures</b> () const noexcept=0</td></tr>
+virtual const SciCore::RealVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>temperatures</b> () const noexcept=0</td></tr>
 <tr class="memdesc:a625e7cca6ae14895f4dc0a7cb0803dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the temperatures of the reservoirs the system is connected to. <br /></td></tr>
 <tr class="separator:a625e7cca6ae14895f4dc0a7cb0803dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90862e388691cd80fafb66b32e71758d" id="r_a90862e388691cd80fafb66b32e71758d"><td class="memItemLeft" align="right" valign="top"><a id="a90862e388691cd80fafb66b32e71758d" name="a90862e388691cd80fafb66b32e71758d"></a>
-virtual const <a class="el" href="Definitions_8h.html#a427089ba02d4d6caadf2e51182c93b49">SciCore::RealVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>chemicalPotentials</b> () const noexcept=0</td></tr>
+virtual const SciCore::RealVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>chemicalPotentials</b> () const noexcept=0</td></tr>
 <tr class="memdesc:a90862e388691cd80fafb66b32e71758d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the chemical potentials of the reservoirs the system is connected to. <br /></td></tr>
 <tr class="separator:a90862e388691cd80fafb66b32e71758d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d1c20002c047e47667eb444c1dd91d" id="r_aa0d1c20002c047e47667eb444c1dd91d"><td class="memItemLeft" align="right" valign="top"><a id="aa0d1c20002c047e47667eb444c1dd91d" name="aa0d1c20002c047e47667eb444c1dd91d"></a>

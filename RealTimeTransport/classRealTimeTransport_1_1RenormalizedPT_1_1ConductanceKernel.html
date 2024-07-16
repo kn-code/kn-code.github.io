@@ -135,7 +135,7 @@ $(function(){initNavTree('classRealTimeTransport_1_1RenormalizedPT_1_1Conductanc
 
 <p><code>#include &lt;<a class="el" href="ConductanceKernel_8h_source.html">RealTimeTransport/RenormalizedPT/ConductanceKernel.h</a>&gt;</code></p>
 <a name="details" id="details"></a>
-<div class="textblock"><p>This class computes the conductance kernel via the renormalized perturbation theory. This kernel can be used to compute the conductance \( dI_r/d\mu_r \) of reservoir \( r \) without numerical differentiation, which is numerically more stable. The memory and current kernel must be computed first in order to use this class. A cross conductance \( dI_r/d\mu_{r&#39;} \) can be obtained by first computing the current kernel for resrevoir \( r \), and then the conductance kernel for reservoir \( r&#39; \). </p>
+<div class="textblock"><p>This class computes the conductance kernel via the renormalized perturbation theory. This kernel can be used to compute the stationary conductance \( dI_r/d\mu_r \) of reservoir \( r \) without numerical differentiation, which is numerically more stable. The memory and current kernel must be computed first in order to use this class. A cross conductance \( dI_r/d\mu_{r&#39;} \) can be obtained by first computing the current kernel for resrevoir \( r \), and then the conductance kernel for reservoir \( r&#39; \). </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -159,10 +159,10 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1ConductanceKernel.html">ConductanceKernel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1ConductanceKernel.html">ConductanceKernel</a> &amp;other)</td></tr>
 <tr class="memdesc:a6ca6e1947cc5fbcec83537a8d2df5fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. <br /></td></tr>
 <tr class="separator:a6ca6e1947cc5fbcec83537a8d2df5fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c8111e1c8805afb62b66a5bf3628278" id="r_a7c8111e1c8805afb62b66a5bf3628278"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c8111e1c8805afb62b66a5bf3628278">ConductanceKernel</a> (const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1MemoryKernel.html">MemoryKernel</a> &amp;K, const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1CurrentKernel.html">CurrentKernel</a> &amp;KI, const <a class="el" href="classRealTimeTransport_1_1Model.html#aff525a6c5d126020aa61bb820491a7eb">Model::OperatorType</a> &amp;stationaryState, int <a class="el" href="#a330581c5c87b4352294954a2d298a48e">r</a>, <a class="el" href="group__RenPT.html#gac84b852b2f2760a1e2cde1e53dd33677">Order</a> order, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> <a class="el" href="#aec4a6b8726a0cfeef1d318fa5317335d">tMax</a>, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> <a class="el" href="#a7f6e9d5b30abf7efdcadc5c085ddc4a9">errorGoal</a>, int block=-1)</td></tr>
+<tr class="memitem:a7c8111e1c8805afb62b66a5bf3628278" id="r_a7c8111e1c8805afb62b66a5bf3628278"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c8111e1c8805afb62b66a5bf3628278">ConductanceKernel</a> (const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1MemoryKernel.html">MemoryKernel</a> &amp;K, const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1CurrentKernel.html">CurrentKernel</a> &amp;KI, const <a class="el" href="classRealTimeTransport_1_1Model.html#aff525a6c5d126020aa61bb820491a7eb">Model::OperatorType</a> &amp;stationaryState, int <a class="el" href="#a330581c5c87b4352294954a2d298a48e">r</a>, <a class="el" href="group__RenPT.html#gac84b852b2f2760a1e2cde1e53dd33677">Order</a> order, SciCore::Real <a class="el" href="#aec4a6b8726a0cfeef1d318fa5317335d">tMax</a>, SciCore::Real <a class="el" href="#a7f6e9d5b30abf7efdcadc5c085ddc4a9">errorGoal</a>, int block=-1)</td></tr>
 <tr class="memdesc:a7c8111e1c8805afb62b66a5bf3628278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the conductance kernel for a given model.  <br /></td></tr>
 <tr class="separator:a7c8111e1c8805afb62b66a5bf3628278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2bc1d504adb93771058316c980c3587" id="r_ab2bc1d504adb93771058316c980c3587"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2bc1d504adb93771058316c980c3587">ConductanceKernel</a> (const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1MemoryKernel.html">MemoryKernel</a> &amp;K, const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1CurrentKernel.html">CurrentKernel</a> &amp;KI, const <a class="el" href="classRealTimeTransport_1_1Model.html#aff525a6c5d126020aa61bb820491a7eb">Model::OperatorType</a> &amp;stationaryState, int <a class="el" href="#a330581c5c87b4352294954a2d298a48e">r</a>, <a class="el" href="group__RenPT.html#gac84b852b2f2760a1e2cde1e53dd33677">Order</a> order, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> <a class="el" href="#aec4a6b8726a0cfeef1d318fa5317335d">tMax</a>, <a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a> <a class="el" href="#a7f6e9d5b30abf7efdcadc5c085ddc4a9">errorGoal</a>, tf::Executor &amp;executor, int block=-1)</td></tr>
+<tr class="memitem:ab2bc1d504adb93771058316c980c3587" id="r_ab2bc1d504adb93771058316c980c3587"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2bc1d504adb93771058316c980c3587">ConductanceKernel</a> (const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1MemoryKernel.html">MemoryKernel</a> &amp;K, const <a class="el" href="classRealTimeTransport_1_1RenormalizedPT_1_1CurrentKernel.html">CurrentKernel</a> &amp;KI, const <a class="el" href="classRealTimeTransport_1_1Model.html#aff525a6c5d126020aa61bb820491a7eb">Model::OperatorType</a> &amp;stationaryState, int <a class="el" href="#a330581c5c87b4352294954a2d298a48e">r</a>, <a class="el" href="group__RenPT.html#gac84b852b2f2760a1e2cde1e53dd33677">Order</a> order, SciCore::Real <a class="el" href="#aec4a6b8726a0cfeef1d318fa5317335d">tMax</a>, SciCore::Real <a class="el" href="#a7f6e9d5b30abf7efdcadc5c085ddc4a9">errorGoal</a>, tf::Executor &amp;executor, int block=-1)</td></tr>
 <tr class="memdesc:ab2bc1d504adb93771058316c980c3587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the conductance kernel for a given model in parallel.  <br /></td></tr>
 <tr class="separator:ab2bc1d504adb93771058316c980c3587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a330581c5c87b4352294954a2d298a48e" id="r_a330581c5c87b4352294954a2d298a48e"><td class="memItemLeft" align="right" valign="top"><a id="a330581c5c87b4352294954a2d298a48e" name="a330581c5c87b4352294954a2d298a48e"></a>
@@ -170,15 +170,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>r</b> () const noexcep
 <tr class="memdesc:a330581c5c87b4352294954a2d298a48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the reservoir index for which the conductance kernel was computed. <br /></td></tr>
 <tr class="separator:a330581c5c87b4352294954a2d298a48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4a6b8726a0cfeef1d318fa5317335d" id="r_aec4a6b8726a0cfeef1d318fa5317335d"><td class="memItemLeft" align="right" valign="top"><a id="aec4a6b8726a0cfeef1d318fa5317335d" name="aec4a6b8726a0cfeef1d318fa5317335d"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tMax</b> () const</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>tMax</b> () const</td></tr>
 <tr class="memdesc:aec4a6b8726a0cfeef1d318fa5317335d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum simulation time. <br /></td></tr>
 <tr class="separator:aec4a6b8726a0cfeef1d318fa5317335d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f6e9d5b30abf7efdcadc5c085ddc4a9" id="r_a7f6e9d5b30abf7efdcadc5c085ddc4a9"><td class="memItemLeft" align="right" valign="top"><a id="a7f6e9d5b30abf7efdcadc5c085ddc4a9" name="a7f6e9d5b30abf7efdcadc5c085ddc4a9"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>errorGoal</b> () const noexcept</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>errorGoal</b> () const noexcept</td></tr>
 <tr class="memdesc:a7f6e9d5b30abf7efdcadc5c085ddc4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the error goal of the computation. <br /></td></tr>
 <tr class="separator:a7f6e9d5b30abf7efdcadc5c085ddc4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac1f79ad95461cc60d8331f3fbc68792" id="r_aac1f79ad95461cc60d8331f3fbc68792"><td class="memItemLeft" align="right" valign="top"><a id="aac1f79ad95461cc60d8331f3fbc68792" name="aac1f79ad95461cc60d8331f3fbc68792"></a>
-<a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>conductance</b> () const</td></tr>
+SciCore::Real&#160;</td><td class="memItemRight" valign="bottom"><b>conductance</b> () const</td></tr>
 <tr class="memdesc:aac1f79ad95461cc60d8331f3fbc68792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the (stationary) conductance. <br /></td></tr>
 <tr class="separator:aac1f79ad95461cc60d8331f3fbc68792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfb4863cfa1785ccba83052434968f08" id="r_acfb4863cfa1785ccba83052434968f08"><td class="memItemLeft" align="right" valign="top"><a id="acfb4863cfa1785ccba83052434968f08" name="acfb4863cfa1785ccba83052434968f08"></a>
@@ -221,12 +221,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>r</b> () const noexcep
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>tMax</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>tMax</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>errorGoal</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>errorGoal</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -286,12 +286,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>r</b> () const noexcep
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>tMax</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>tMax</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Definitions_8h.html#a9150e53e6ec9fd06b69c1e70581c55aa">SciCore::Real</a></td>          <td class="paramname"><span class="paramname"><em>errorGoal</em></span>, </td>
+          <td class="paramtype">SciCore::Real</td>          <td class="paramname"><span class="paramname"><em>errorGoal</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
