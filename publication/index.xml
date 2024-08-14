@@ -5,12 +5,20 @@
     <link>kn-code.github.io/publication/</link>
       <atom:link href="kn-code.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/kn-code.github.io/media/icon_huc73641a0e86e5332cecb810b606a4bf3_11086_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>kn-code.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>RealTimeTransport: An open-source C&#43;&#43; library for quantum transport simulations in the strong coupling regime</title>
+      <link>kn-code.github.io/publication/realtimetransport-an-open-source-c-library-for-quantum-transport-simulations-in-the-strong-coupling-regime/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>kn-code.github.io/publication/realtimetransport-an-open-source-c-library-for-quantum-transport-simulations-in-the-strong-coupling-regime/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Open Quantum Systems: Time (non)-locality, Fixed Points, and Renormalization Groups</title>
